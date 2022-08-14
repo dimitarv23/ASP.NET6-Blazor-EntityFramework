@@ -1,0 +1,8 @@
+﻿@model List<FirstMVCApp.Models.DogViewModel>
+
+<ul>
+    @foreach (var dog in Model)
+    {
+        <li>@dog.Name - @dog.Age years old</li>
+    }
+</ul>
