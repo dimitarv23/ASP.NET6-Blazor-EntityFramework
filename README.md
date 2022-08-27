@@ -1,2 +1,5 @@
 # ASP.NET 6.0 and Entity Framework Core
-[Link to Course](https://www.udemy.com/course/aspnet-6-course/)
+## 🔗 Links to Courses
+[ASP.NET Core 6.0 (Full Course)](https://www.udemy.com/course/aspnet-6-course/)
+
+[ASP.NET Core MVC (.NET 6)](https://www.youtube.com/watch?v=hZ1DASYd9rk&ab_channel=freeCodeCamp.org)
