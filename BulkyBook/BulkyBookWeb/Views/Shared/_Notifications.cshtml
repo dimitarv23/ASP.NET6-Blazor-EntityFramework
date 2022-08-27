@@ -1,0 +1,23 @@
+﻿@*
+    A partial view for all the notifications.
+    It can be used throughout the whole application.
+    This way code duplication is avoided.
+    *@
+
+@if (TempData["success"] != null)
+{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script type="text/javascript">
+        toastr.success('@TempData["success"]');
+    </script>
+}
+
+@if (TempData["error"] != null)
+{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script type="text/javascript">
+        toastr.error('@TempData["error"]');
+    </script>
+}
