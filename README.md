@@ -1,4 +1,4 @@
-# ASP.NET 6.0 and Entity Framework Core
+# ASP.NET 6, Blazor and Entity Framework Core
 ## 🔗 Links to Courses
 [ASP.NET Core 6.0 (Full Course)](https://www.udemy.com/course/aspnet-6-course/)
 
